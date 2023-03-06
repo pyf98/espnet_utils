@@ -7,3 +7,4 @@ Please use latest version (>= 0.8.1) of DeepSpeed to avoid issues.
 
 [`profile_encoder.py`](profile_encoder.py) uses DeepSpeed's `flops_profiler` to calculate the computational cost of `ESPnetASRModel`. Please put it under the path: `egs2/TEMPLATE/asr1/pyscripts/utils`.
 
+This script only supports ASR model for now. But it should be straightforward to extend it to others.
