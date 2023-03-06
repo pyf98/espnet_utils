@@ -3,7 +3,7 @@ Small utility scripts for ESPnet.
 
 ## Profiler for encoder
 
-Please use the latest version (e.g., >= 0.8.1) of DeepSpeed. Prior versions have some issues.
+Please use the latest version (e.g., >= 0.8.1) of DeepSpeed. Prior versions might cause some unexpected problems like https://github.com/microsoft/DeepSpeed/issues/2231
 
 [`profile_encoder.py`](profile_encoder.py) uses DeepSpeed's `flops_profiler` to calculate the computational cost of `ESPnetASRModel`. Please put it under the path: `egs2/TEMPLATE/asr1/pyscripts/utils` and put [`profile.sh`](profile.sh) in a specific recipe: `egs2/xxx/asr1/`.
 
